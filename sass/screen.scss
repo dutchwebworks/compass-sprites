@@ -1,0 +1,42 @@
+// Basic usage of Compass sprite generator
+
+// Prerequisites:
+// Ruby and the Compass gem
+// http://compass-style.org/install/
+// Mac: Has an older version of Ruby already installed
+// Windows: http://www.ruby-lang.org/en/downloads/
+
+// Compass sprite documentation:
+// http://compass-style.org/help/tutorials/spriting/
+
+// Folder structure: /img/social/*.png
+// The 'social' prefix in the SASS var names below
+// map to the (sub) folder name of the sprite images
+
+// ---------------------------------------------
+// Config settings for Compass sprite generator
+// ---------------------------------------------
+
+// Again, use the foldername as var prefix
+// This is the spacing in between sprites
+$social-spacing: 20px;
+
+// Change the spacing of an individual file named: dribbble.png
+// $social-dribbble-spacing: 150px;
+
+// Change the layout: vertical, horizontal, diagonal or smart
+// Use 'smart' when the icons are of irregular size
+$social-layout: diagonal;
+
+// ---------------------------------------------
+// Generate the sprite using the folder name
+// ---------------------------------------------
+
+// The directory where the images are located
+// See Ruby 'config.rb' file in the root of project
+// The directory path below is prefixed with Ruby's 'images_dir' var
+// Example: /img/social/*.png
+@import "social/*.png";
+
+// Now render the sprite background coordinates as CSS class names
+@include all-social-sprites;

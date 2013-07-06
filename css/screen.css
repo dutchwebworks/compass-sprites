@@ -1,0 +1,87 @@
+.social-sprite, .social-bloggr, .social-deviantart, .social-digg, .social-dribbble, .social-evernote, .social-facebook, .social-flickr, .social-forrst, .social-googleplus, .social-instagram, .social-linkedin, .social-pinterest, .social-rss, .social-share, .social-skype, .social-stumbleupon, .social-tumblr, .social-twitter, .social-very-large, .social-vimeo, .social-youtube {
+  background: url('../img/social-s96f8c66c6a.png') no-repeat;
+}
+
+.social-bloggr {
+  background-position: 0 -1225px;
+}
+
+.social-deviantart {
+  background-position: -57px -1168px;
+}
+
+.social-digg {
+  background-position: -114px -1111px;
+}
+
+.social-dribbble {
+  background-position: -171px -1054px;
+}
+
+.social-evernote {
+  background-position: -228px -997px;
+}
+
+.social-facebook {
+  background-position: -285px -940px;
+}
+
+.social-flickr {
+  background-position: -342px -883px;
+}
+
+.social-forrst {
+  background-position: -399px -826px;
+}
+
+.social-googleplus {
+  background-position: -456px -769px;
+}
+
+.social-instagram {
+  background-position: -513px -712px;
+}
+
+.social-linkedin {
+  background-position: -570px -655px;
+}
+
+.social-pinterest {
+  background-position: -627px -598px;
+}
+
+.social-rss {
+  background-position: -684px -541px;
+}
+
+.social-share {
+  background-position: -741px -484px;
+}
+
+.social-skype {
+  background-position: -798px -427px;
+}
+
+.social-stumbleupon {
+  background-position: -855px -370px;
+}
+
+.social-tumblr {
+  background-position: -912px -313px;
+}
+
+.social-twitter {
+  background-position: -969px -256px;
+}
+
+.social-very-large {
+  background-position: -1026px -114px;
+}
+
+.social-vimeo {
+  background-position: -1168px -57px;
+}
+
+.social-youtube {
+  background-position: -1225px 0;
+}
